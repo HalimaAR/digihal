@@ -1,0 +1,196 @@
+
+body{
+  font-family: 'Roboto', sans-serif;}
+
+a{
+  text-decoration: none;
+}
+
+.title2{
+  text-align: center;
+  font-weight: 300;
+  padding: 10px;
+}
+
+img{
+  display: flex;
+  justify-content: center;
+  margin:auto;
+}
+.container{
+  display: flex;
+  justify-content: center;
+margin: auto;
+}
+
+.left-align{
+  text-align: left
+}
+
+  /* NAVBAR */
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  li {
+    float: right; 
+  }
+  
+  li a .navbar {
+    display: block;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    color: #044455;
+    font-style: oblique;
+  }
+
+  .logo{
+    font-size: 30px;
+    font-weight: 200;
+  }
+/* OVER */
+.over-text{
+  width: 60%;
+}
+.over-container{
+  margin-bottom:60px;
+}
+/* HOME */
+.home-container{
+  padding-top: 100px;
+  padding-left: 50px;
+  width: 80%;
+}
+
+  .home-text{
+    width:50%;
+    font-size: 20px;
+  }
+  .home-img{
+    width: 30%;
+    float: right;
+    margin: 40px 200px;
+   
+  }
+
+  .button{
+    background-color: #044455;
+    padding:16px 31px;
+    border-radius:12px;
+    border: 0px;
+    color: white;
+  }
+  .button:hover{
+    background-color: #09ad90;
+    color: white;
+  }
+
+
+/* DIENSTEN */
+.card{
+    width: 25%;
+     display: inline-block;
+     font-weight: 200;
+     margin: auto;
+  }
+
+  .diensten-img{
+    width: 40%;
+  }
+  .diensten-img:hover{
+    width: 45%;
+  }
+  
+
+/* TEAMS */
+
+  .team-title{
+    text-align: center;
+  }
+.teamcontainer{
+width: 80%;
+text-align: center;
+} 
+
+.team-card{
+    width: 50%;
+  }
+  
+  .team-text{
+  text-align: center;
+  margin-bottom: 30px;
+  }
+/* CONTACT */
+form{
+  margin-bottom: 90px;
+}
+.form{
+padding:10px;
+width: 60%;
+}
+
+textarea{
+  resize: none;
+  width: 300px;
+  height: 80px;
+  margin-top: 5px;
+}
+input{
+  width: 300px;
+  margin-top: 5px;
+
+}
+
+  /* FOOTER */
+  
+.footer{
+  background-color:#044455;
+  color: white;
+  position: fixed;
+  left: 0; 
+  bottom: 0;
+  width: 100%;
+  font-size: 25px;;
+    
+  }
+
+  .footer-text{
+    text-align: center;
+    font-size: 15px;
+  }
+  .footer-link{
+    color:white;
+  }
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+     
+  }
+  
+  li {
+    float: right; 
+  }
+  
+  li a {
+    display: block;
+    padding: 14px 16px;
+    text-decoration: none;
+    color: #044455;
+    
+  }
+
+  a {
+    text-decoration: none;
+  }
+  
+  
+  a:hover{
+    color:#09ad90;
+  }
+  
+  
