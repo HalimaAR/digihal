@@ -78,10 +78,11 @@ ul {
 
   .button{
     background-color: #044455;
-    padding:16px 31px;
+    padding:10px 31px;
     border-radius:12px;
     border: 0px;
     color: white;
+    width: 150px;
   }
   .button:hover{
     background-color: #09ad90;
